@@ -1,6 +1,22 @@
 body{
       background-color: LightCyan;
 }
+
+#photo ul{
+  overflow: hidden;
+}
+
+#photo li{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+#photo img{
+  width: 100px;
+}
+
       
 #gnav a {
   display: block;
