@@ -25,7 +25,7 @@ body{
 }
 
 #gnav a.selected {
-  background: white;
+  background: block;
   color: darkgreen;
   font-weight: bold;
 }
@@ -37,10 +37,10 @@ body{
 #gnav li {
   float: left;
   width: 156px;
-  border-right: white 1px solid;
+  border-right: block 1px solid;
   list-style-type: none;
 }
 
 #gnav li:first-child {
-      border-left: white 1px solid;
+      border-left: block 1px solid;
 }
